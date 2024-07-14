@@ -52,21 +52,21 @@ Use knex for managing database migrations with the following commands:
 Run all pending migrations to update your database schema:
 
 ```bash
-npm knex migrate:latest
+npx knex migrate:latest
 ```
 
 - Create a new migration:
 To add a new migration file for changes such as creating a new table or altering an existing one:
 
 ```bash
-npm knex migrate:make name_of_migration
+npx knex migrate:make name_of_migration
 ```
 
 - Roll back the last batch of migrations:
 If you need to undo the last batch of migrations applied:
 
 ```bash
-npm knex migrate:rollback
+npx knex migrate:rollback
 ```
 
 - Roll back all migrations:
